@@ -1,2 +1,44 @@
 for Singleletter in "Paris":
   print(Singleletter)
+ame = str(input("Input your name>>>"))
+
+for i in range(3):
+  print(name)
+
+for counting in range(10):
+  print(counting)
+
+for holdingNumbersFromRange in range(3):
+  print("This for loop will display", holdingNumbersFromRange)
+
+for holdingNumbersFromRange in range(5, 10):
+  print("This for loop will display", holdingNumbersFromRange)
+
+animals = ["cat","dog","horse","donkey","rabbit"]
+for nextAnimal in animals:
+  print("the animal is a ", nextAnimal)
+
+
+myList = ["car","dog","cow","donkey","rabbit","canary"]
+for next in myList:
+  if next[0] == "c":
+    print(next)
+
+price = [10.99, 9.99, 4.99, 20]
+for item in price:
+  percent = item * 0.50
+  newPrice = item - percent
+  print(newPrice)
+
+days = ["MON","TUE","WED","THU","FRI","SAT","SUN"]
+
+HighestLocationinArray = len(days)-1
+lengthOfList = len(days)
+
+print(days)
+print("The lowest location is zero")
+print("The highest location is",HighestLocationinArray)
+print("The number of elements in the list is",lengthOfList)
+
+for i in range(len(days)-1):
+    print("This loop will run for the",i,"element which is", days[i])
