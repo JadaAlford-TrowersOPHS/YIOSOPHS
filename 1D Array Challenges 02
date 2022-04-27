@@ -1,0 +1,11 @@
+cars = []
+SV = True
+
+while SV == True:
+  car = str(input("Input a car brand or press x to exit"))
+  list.append[car]
+  if car == "x":
+    print("Exiting...")
+    SV = False
+  print("The list is " , cars)
+else:
