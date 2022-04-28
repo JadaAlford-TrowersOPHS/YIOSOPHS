@@ -1,0 +1,9 @@
+invited = []
+invited.append(input("List 3 people you want to invite to a party: "))
+ques = input("Do you wan to add another person? Enter yes or no:  ")
+while ques == "yes":
+  invited.append(input("Invite another:  "))
+  ques = input("Do you wan to add another person? Enter yes or no:  ")
+  if ques == "no":
+    print("You've invited" , invited)
+               
